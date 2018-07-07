@@ -50,9 +50,9 @@ export class StepThree extends Component {
         return (
             <div className='input_container'>
                 <p>Monthly Mortgage</p>
-                <input value={this.state.mortgage} onChange={(e) => this.handleChangeMortgage(e.target.value)}></input>
+                <input type='number' value={this.state.mortgage} onChange={(e) => this.handleChangeMortgage(e.target.value)}></input>
                 <p>Desired Rent</p>
-                <input value={this.state.rent} onChange={(e) => this.handleChangeRent(e.target.value)}></input>
+                <input type='number' value={this.state.rent} onChange={(e) => this.handleChangeRent(e.target.value)}></input>
                 <button className='prevButt' onClick={ () => {
                     this.props.updateMoney(this.state);
                     this.props.history.push('/wizard/step2');
