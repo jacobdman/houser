@@ -1,0 +1,31 @@
+.Dashboard {
+  height: 100vh;
+  width: 50vw;
+  background-color: #E5F4EC;
+}
+  
+.Dashtop {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.Title {
+  font-size: 40px;
+  color: #3B5249;
+  margin: 20px;
+}
+  
+.Propbutt {
+  margin: 20px;
+  background-color: #8AEA92;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+  
+.divider{
+  border-top: solid 1px black;
+  margin: 0 20px 10px;
+}
+  

@@ -1,0 +1,39 @@
+.House {
+    width: 100%;
+    height: 150px;
+    background-color: #DEDEDE;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+.box {
+    float: left;
+    height: 90%;
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box > * {
+    margin: 0 0 3px 0;
+}
+
+.delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.delete:hover {
+    cursor: pointer; 
+}
+
+.boximg {
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+  

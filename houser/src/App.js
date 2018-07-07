@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Dashboard from './component/Dashboard/Dashboard'
+import Routes from './routes'
 import Header from './component/Header/Header'
-import Wizard from './component/Wizard/Wizard'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Dashboard />
         <Header />
-        <Wizard />
+        {Routes}
       </div>
     );
   }
 }
-
-export default App;

@@ -1,0 +1,1 @@
+delete from houses where address = $1
